@@ -1,6 +1,6 @@
-﻿namespace TodoBot.UI
+﻿namespace TodoBot.UI;
+
+public class TodoApiClient
 {
-    internal class TodoApiClient
-    {
-    }
+
 }
