@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
+using TodoBot.Core;
 
 namespace TodoBot.API.Todo.Controllers;
 
@@ -24,9 +25,9 @@ public class TodoController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post()
+    public IActionResult Post([FromBody] AlarmMessageModel model)
     {
-        this._hubContext.Clients.All.SendAsync ("Notify", "service", "message");
+        this._hubContext.Clients.All.SendAsync ("Notify", "service", model.Message);
         return Ok ();
     }
 }

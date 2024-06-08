@@ -16,4 +16,8 @@
     <Folder Include="Todo\Model\DTO\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TodoBot.Core\TodoBot.Core.csproj" />
+  </ItemGroup>
+
 </Project>
