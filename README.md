@@ -74,7 +74,11 @@ API Swagger가 기본적으로 세팅되어있는것을 확인하기 위해 Aspn
    app.MapHub<ChatHub> ("/chatHub");
    ```
 4. 알림클라이언트 MVVM 기본세팅
-5. SignalR연결
+   Nuget 설치
+   ```
+   Microsoft.AspNetCore.SignalR.Client
+   ```
+6. SignalR연결
 
 ## 4. API만들기
 1. POST, GET API만 만들 계획
