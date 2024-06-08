@@ -79,7 +79,23 @@ API Swagger가 기본적으로 세팅되어있는것을 확인하기 위해 Aspn
    Microsoft.AspNetCore.SignalR.Client
    ```
 6. SignalR연결
+## 4. 윈도우10 ~ 알림센터 사용하기
+1. 라이브러리 설치 전 .csproj의 TargetFramework 수정 필요
+   <br/>
+   **(BEFORE)** [netversion]-windows
+   <br/>
+   ![image](https://github.com/lukewire129/WpfMeetup_240627/assets/54387261/e0844b8f-f53d-4d33-858a-d95a9886fed2)
 
+   <br/>
+   **(AFTER)** [netversion]-windows**10.0.17763.0**
+   <br/>
+   ![image](https://github.com/lukewire129/WpfMeetup_240627/assets/54387261/7d673971-8b92-4e6d-a92f-cf872420b87d)
+
+   Nuget 설치
+   ```
+   Microsoft.Toolkit.Uwp.Notifications
+   ```
+   
 ## 4. API만들기
 1. POST, GET API만 만들 계획
 2. DTO 모델
