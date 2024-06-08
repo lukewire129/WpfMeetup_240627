@@ -54,10 +54,27 @@ API Swagger가 기본적으로 세팅되어있는것을 확인하기 위해 Aspn
    sc delete [서비스명]
    ```
 ## 3. SignalR 설정
-1. 메세지허브 만들기
-2. Maphub연결
-3. 알림클라이언트 MVVM 기본세팅
-4. SignalR연결
+1. SignalR 사용
+   ```
+   builder.Services.AddSignalR ();
+   ```
+2. 메세지허브 & MapHub연결
+   클래스생성
+   ```
+   public class ChatHub : Hub
+   {
+       public async Task SendMessage(string user, string message)
+       {
+           await Clients.All.SendAsync ("ReceiveMessage", user, message);
+       }
+   }
+   ```
+   Maphub사용
+   ```
+   app.MapHub<ChatHub> ("/chatHub");
+   ```
+4. 알림클라이언트 MVVM 기본세팅
+5. SignalR연결
 
 ## 4. API만들기
 1. POST, GET API만 만들 계획
