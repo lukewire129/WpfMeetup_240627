@@ -9,12 +9,6 @@ API Swagger가 기본적으로 세팅되어있는것을 확인하기 위해 Aspn
 - [ ] SignalR 설정  
 - [ ] API만들기
 
-```
-  다음달
-- [ ] NCronJOB [추가 예정 기능](https://github.com/NCronJob-Dev/NCronJob/issues/83)
-- [ ] 관리자 프로그램
-```
-
 ## 1. API 서버 세팅 및 테스트
 1. 윈도우 서비스확용 설치
     ```
