@@ -1,7 +1,9 @@
-## 개요
+## 목적
+- 윈도우 서비스에 대한 접근 활용방법
+- Wep API에 대한 진입 장벽을 낮추기 위한 시도
+
+## 목표
 - ASP.NET CORE API를 통한 로컬 API서버와 SIGNAL을 통해 스케줄 알림봇 같은 류의 서비스를 만들 수 있음
-- 윈도우서비스템플릿으로 시작해도 되고 AspnetCoreAPI로 시작해도 됨.
-API Swagger가 기본적으로 세팅되어있는것을 확인하기 위해 AspnetCoreAPI로 만듬
 
 ## 목차
 - [ ] API 서버 세팅 및 테스트
@@ -10,7 +12,7 @@ API Swagger가 기본적으로 세팅되어있는것을 확인하기 위해 Aspn
 - [ ] API만들기
 
 ## 1. API 서버 세팅 및 테스트
-1. 윈도우 서비스확용 설치
+1. 윈도우 서비스확장용 설치
     ```
     Microsoft.Extensions.Hosting.WindowsServices
     ```
