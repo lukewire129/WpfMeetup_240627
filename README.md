@@ -1,5 +1,5 @@
 ## 개요
-- ASP.NET CORE API를 통한 로컬 API서버와 SIGNAL을 통해 스케줄 알림봇을 운용할 수 있음.
+- ASP.NET CORE API를 통한 로컬 API서버와 SIGNAL을 통해 스케줄 알림봇 같은 류의 서비스를 만들 수 있음
 - 윈도우서비스템플릿으로 시작해도 되고 AspnetCoreAPI로 시작해도 됨.
 API Swagger가 기본적으로 세팅되어있는것을 확인하기 위해 AspnetCoreAPI로 만듬
 
