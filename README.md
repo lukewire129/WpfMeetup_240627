@@ -80,11 +80,13 @@
    <br/>
    **(BEFORE)** [netversion]-windows
    <br/>
+   
    ![image](https://github.com/lukewire129/WpfMeetup_240627/assets/54387261/e0844b8f-f53d-4d33-858a-d95a9886fed2)
 
    <br/>
    **(AFTER)** [netversion]-windows**10.0.17763.0**
    <br/>
+   
    ![image](https://github.com/lukewire129/WpfMeetup_240627/assets/54387261/7d673971-8b92-4e6d-a92f-cf872420b87d)
 
    Nuget 설치
